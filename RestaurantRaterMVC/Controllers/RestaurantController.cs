@@ -34,8 +34,7 @@ namespace RestaurantRaterMVC.Controllers
                 _db.SaveChanges();
                 return RedirectToAction("Index");
             }
-
-            return View(restaurant);
+            return View(restaurant); 
         }
     }
 }
